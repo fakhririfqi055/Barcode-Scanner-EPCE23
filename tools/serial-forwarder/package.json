@@ -1,0 +1,14 @@
+{
+  "name": "serial-forwarder",
+  "version": "1.0.0",
+  "description": "Read serial (COM) from barcode scanner and forward codes via WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "serialport": "^11.0.0",
+    "ws": "^8.13.0",
+    "@serialport/parser-readline": "^11.0.0"
+  }
+}
